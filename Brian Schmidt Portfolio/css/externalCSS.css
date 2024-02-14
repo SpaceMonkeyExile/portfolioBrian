@@ -1,0 +1,49 @@
+/*
+AUTH: Brian Schmidt 
+DATE: 02/14/24
+DESC: Basic CSS template to test things.
+*/
+a:link {
+    color: #fffd72;
+    background-color: transparent;
+    text-decoration: none;
+    }
+    a:visited {
+    color: rgb(238, 101, 47);
+    background-color: transparent;
+    text-decoration: none;
+    }
+    a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+    a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+    body {
+    background-color: #282a35;
+    color: #ffffff;
+    font-family:serif;
+    font-size:x-large;
+    text-align:left;
+    text-shadow: 3pt 3pt 5px #666666; }
+/* Making a class selector */
+    .fancyFont { 
+        background-color: #555;
+        color: #000;
+        font-family:serif;
+        font-style:italic;
+        font-size:xx-large;
+        color:aqua }
+/* Makinng an ID selector */
+    #specialParagraph { font-size:small; }
+/* Decendant Selectors */
+    article { font-size:xx-small; }
+/* Padding */
+    #container { 
+        margin-left: auto;
+        margin-right: auto; 
+        width: 80%; }
